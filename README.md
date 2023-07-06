@@ -28,10 +28,6 @@ El proyecto incluye varios diagramas que muestran cómo se estructuran y se rela
 
 ---
 
-Claro, aquí está esa información en formato Markdown:
-
----
-
 1. **Diagrama relacional**: Este diagrama muestra cómo se relacionan las diferentes entidades en tu base de datos. En tu caso, podrías tener dos entidades: `Recarga` y `Operador`. Cada `Recarga` estaría relacionada con un `Operador` y tendría atributos para el `valor` de la recarga y la `persona` que realiza la venta.
 
    ```
