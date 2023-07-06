@@ -1,0 +1,11 @@
+<form (ngSubmit)="venderRecarga()">
+  <label>
+    Valor de la recarga:
+    <input [(ngModel)]="recarga.valor" name="valor" />
+  </label>
+  <label>
+    Persona que realiza la venta:
+    <input [(ngModel)]="recarga.vendedor" name="vendedor" />
+  </label>
+  <button type="submit">Vender recarga</button>
+</form>
